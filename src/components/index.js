@@ -1,5 +1,5 @@
-import draggableTable from './tables/draggableTable.vue';
-draggableTable.install = function(Vue) {
-    Vue.component(draggableTable.name, draggableTable);
+import selectTree from './tables/select-tree.vue';
+selectTree.install = function(Vue) {
+    Vue.component(selectTree.name, selectTree);
 };
-export default draggableTable;
+export default selectTree;
