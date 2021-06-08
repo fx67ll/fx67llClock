@@ -1,0 +1,41 @@
+{
+	"name": "fx67ll-select-tree",
+	"version": "0.1.0",
+	"private": false,
+	"main": "lib/fx67ll-select-tree.umd.min.js",
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"lib": "vue-cli-service build --target lib --name fx67ll-select-tree --dest lib src/components/index.js"
+	},
+	"dependencies": {
+		"core-js": "^2.6.5",
+		"less": "^3.12.2",
+		"less-loader": "^7.0.1",
+		"style-resources-loader": "^1.3.3",
+		"vue": "^2.6.10",
+		"vue-router": "^3.4.3"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "^3.8.0",
+		"@vue/cli-service": "^3.8.0",
+		"vue-template-compiler": "^2.6.10"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/fx67ll/fx67llSelectTree.git"
+	},
+	"bugs": {
+		"url": "https://github.com/fx67ll/fx67llSelectTree/issues"
+	},
+	"homepage": "https://github.com/fx67ll/fx67llSelectTree",
+	"keywords": [
+		"fx67ll",
+		"elementui",
+		"select-tree",
+		"fx67ll-select-tree"
+	],
+	"description": "A tool to help you build select tree quickly!",
+	"author": "fx67ll@github.com",
+	"license": "MIT"
+}
