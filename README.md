@@ -1,8 +1,6 @@
-# fx67llSelectTree
-A tool to help you build select tree quickly!
+# fx67llClock
+Easy & Good Clock !
 
-[npm](https://www.npmjs.com/package/fx67ll-select-tree "npm")  
-
-## 0.1.0.20210718
-* init basic project
-* start code but can't use
+## 0.1.0.20211025
+* init project
+* 各种各样简单好用的时钟组件，第一版计划支持Vue2，后续兼容Vue3以及React
