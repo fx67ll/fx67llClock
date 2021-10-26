@@ -1,5 +1,6 @@
 <template>
 	<div class="fx67ll-box">
+		<fx67ll-clock></fx67ll-clock>
 	</div>
 </template>
 
