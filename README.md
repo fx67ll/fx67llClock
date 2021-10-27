@@ -1,6 +1,9 @@
 # fx67llClock
 Easy & Good Clock !
 
+## 0.1.2.20211027
+* 完成基础翻书动效    
+
 ## 0.1.1.20211026
 * 完成3d transform变换  
 
