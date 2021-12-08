@@ -1,6 +1,6 @@
 {
 	"name": "fx67ll-clock",
-	"version": "0.1.0",
+	"version": "0.1.3",
 	"private": false,
 	"main": "lib/fx67ll-clock.umd.min.js",
 	"scripts": {
