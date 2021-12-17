@@ -1,5 +1,18 @@
-import fx67llClock from './fx67ll-clock.vue';
-fx67llClock.install = function(Vue) {
-    Vue.component(fx67llClock.name, fx67llClock);
-};
-export default fx67llClock;
+import Vue from 'vue';
+
+// 翻页时钟组件
+import {
+	fx67llFlipClock
+} from '@c/flip-clock/flip-clock.js';
+
+// 二进制时钟组件
+import {
+	fx67llBinaryClock
+} from '@c/binary-clock/binary-clock.js';
+
+export default {
+	install(Vue) {
+		Vue.use(fx67llFlipClock);
+		Vue.use(fx67llBinaryClock);
+	}
+}

@@ -1,12 +1,13 @@
 <template>
 	<div class="fx67ll-box">
-		<fx67ll-clock></fx67ll-clock>
+		<!-- <fx67ll-flip-clock></fx67ll-flip-clock> -->
+		<fx67ll-binary-clock></fx67ll-binary-clock>
 	</div>
 </template>
 
 <script>
 export default {
-	name: 'fx67llIndex',
+	name: 'fx67llClockIndex',
 	data() {
 		return {};
 	},
