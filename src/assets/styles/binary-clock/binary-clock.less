@@ -1,63 +1,64 @@
-.center {
-	background-color: #aaff7f;
-	margin: auto;
-	position: absolute;
-	top: 30%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
+.bc-box {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	min-width: 640px;
 
-table {
-	border-collapse: separate;
-	border-spacing: 3em;
-}
+	p {
+		width: 100%;
+		text-align: center;
+		color: #2ecc71;
+		font-size: 28px;
+		font-weight: bold;
+		position: relative;
+		top: 20px;
+		right: 30px;
+		margin: 0;
+	}
 
-table td {
-	height: 30px;
-	width: 30px;
-	background-color: white;
-	border-radius: 50%;
-}
+	table {
+		border-collapse: separate;
+		border-spacing: 3em;
+		
+		td {
+			height: 30px;
+			width: 30px;
+			background-color: white;
+			border-radius: 50%;
+		}
 
-.num1 {
-	background-color: #2ecc71 !important;
-	box-shadow: 0 0 15px 2px rgba(46, 204, 113, 0.7);
-}
+		.bc-seconds:after {
+			position: relative;
+			top: 8px;
+			font-size: 18px;
+			content: 'seconds';
+			color: @grey;
+		}
 
-.num0 {
-	background-color: white !important;
-	box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.2);
-}
+		.bc-minutes:after {
+			position: relative;
+			top: 8px;
+			font-size: 18px;
+			content: 'minutes';
+			color: @grey;
+		}
 
-p {
-	text-align: Center;
-	color: #2ecc71;
-	font-family: arial;
-	font-size: 28px;
-	font-weight: bold;
-	font-family: 'Montserrat', sans-serif;
-	position: relative;
-	top: 10px;
-	margin: 0;
-}
+		.bc-hours:after {
+			position: relative;
+			top: 8px;
+			font-size: 18px;
+			content: 'hour';
+			color: @grey;
+		}
+	}
 
-.seconds:after {
-	position: absolute;
-	content: 'seconds';
-	color: #bdc3c7;
-	font-family: 'Montserrat', sans-serif;
-}
+	.num1 {
+		background-color: #2ecc71 !important;
+		box-shadow: 0 0 15px 2px rgba(46, 204, 113, 0.7);
+	}
 
-.minutes:after {
-	position: absolute;
-	content: 'minutes';
-	color: #bdc3c7;
-	font-family: 'Montserrat', sans-serif;
-}
-
-.hours:after {
-	position: absolute;
-	content: 'hour';
-	color: #bdc3c7;
-	font-family: 'Montserrat', sans-serif;
+	.num0 {
+		background-color: #ffffff !important;
+		box-shadow: 0 0 15px 2px rgba(0, 0, 0, 0.2);
+	}
 }
