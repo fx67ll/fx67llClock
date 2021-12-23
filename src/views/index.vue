@@ -1,7 +1,7 @@
 <template>
 	<div class="fx67ll-box">
 		<!-- <fx67ll-flip-clock></fx67ll-flip-clock> -->
-		<!-- <fx67ll-binary-clock></fx67ll-binary-clock> -->
+		<!-- <fx67ll-binary-clock :isShowTime="true" :zoomSize="1"></fx67ll-binary-clock> -->
 	</div>
 </template>
 

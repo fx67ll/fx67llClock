@@ -2,7 +2,6 @@
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	min-width: 640px;
 
 	p {
 		width: 100%;
@@ -11,44 +10,39 @@
 		font-size: 28px;
 		font-weight: bold;
 		position: relative;
-		top: 20px;
+		top: 1vw;
 		right: 30px;
 		margin: 0;
 	}
 
 	table {
-		border-collapse: separate;
-		border-spacing: 3em;
-		
+		// border-collapse: separate;
+		border-spacing: 3.5vw;
+
 		td {
 			height: 30px;
 			width: 30px;
-			background-color: white;
+			background-color: #ffffff;
 			border-radius: 50%;
 		}
 
-		.bc-seconds:after {
+		tr:after {
 			position: relative;
 			top: 8px;
-			font-size: 18px;
-			content: 'seconds';
+			font-size: 1.3vw;
 			color: @grey;
+		}
+
+		.bc-seconds:after {
+			content: 'seconds';
 		}
 
 		.bc-minutes:after {
-			position: relative;
-			top: 8px;
-			font-size: 18px;
 			content: 'minutes';
-			color: @grey;
 		}
 
 		.bc-hours:after {
-			position: relative;
-			top: 8px;
-			font-size: 18px;
 			content: 'hour';
-			color: @grey;
 		}
 	}
 

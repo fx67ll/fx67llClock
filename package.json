@@ -1,6 +1,6 @@
 {
 	"name": "fx67ll-clock",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"private": false,
 	"main": "lib/fx67ll-clock.umd.min.js",
 	"scripts": {
@@ -14,8 +14,7 @@
 		"less-loader": "^7.0.1",
 		"style-resources-loader": "^1.3.3",
 		"vue": "^2.6.10",
-		"vue-router": "^3.4.3",
-		"moment": "^2.28.0"
+		"vue-router": "^3.4.3"
 	},
 	"devDependencies": {
 		"@vue/cli-plugin-babel": "^3.8.0",
